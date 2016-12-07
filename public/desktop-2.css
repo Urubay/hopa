@@ -189,8 +189,15 @@ ul li a:visited
 }
 
 
-ul li a:hover, ul li.current
+
+ul li a:hover
 {
     color: #000000;
-    /*background-color: 7e8459;*/
+    /*background-color: #7e8459;*/
+}
+
+ul li a:current
+{
+    color: #000000;
+    background-color: #abaf8a;
 }

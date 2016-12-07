@@ -135,9 +135,14 @@ ul li a:visited
     color: #ffffff;
 }
 
-ul li a:hover, ul li.current
+ul li a:hover
 {
     color: #000000;
-   /* background-color: yellow;*/
+   background-color: yellow;
+}
+ul li a:current
+{
+    color: #000000;
+    background-color: #abaf8a;
 }
 
