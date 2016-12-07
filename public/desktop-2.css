@@ -50,6 +50,10 @@ header
 	  padding-top: 15px;
 	  height: 100px;
 	  background: #e6a56b url(https://cdn.hyperdev.com/3821bc60-04ad-4269-86c9-7855177fe692%2Fbrown-animal-fur-texture-1.jpg)  no-repeat bottom;
+<<<<<<< HEAD
+=======
+	  background-size: 1000px 300px;
+>>>>>>> refs/remotes/origin/gomix
 	  align:center;
 	  
 	  /*border-bottom: 0px solid #FFF;*/
