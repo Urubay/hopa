@@ -102,9 +102,7 @@ main h1
 {
     font-size: xx-large;
     margin-bottom: 10px;
-    margin-top: 10px;
-    margin-left: 20px;
-    color: #000000;
+    margin-top: 0px;
 }
 
 
@@ -190,20 +188,14 @@ ul li a
 
  ul li a:visited
 {
-  color:  #ffffff ;
+  color:  #e6a56b ;
 } 
 
 
 ul li a:hover
 {
     color: #000000;
-    /*background-color: #de883a;*/
-}
-
-ul li a.curr
-{
-    color: #000000;
-    background-color: #de883a;
+    /*background-color: #7e8459;*/
 }
 
 ul li a:current
