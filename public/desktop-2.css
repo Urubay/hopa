@@ -51,7 +51,7 @@ header
 	  height: 100px;
 	  background: #e6a56b url(https://cdn.hyperdev.com/3821bc60-04ad-4269-86c9-7855177fe692%2Fbrown-animal-fur-texture-1.jpg)  no-repeat bottom;
 	  background-size: 1000px 300px;
-	  align:center;
+	  align: center;
 	  
 	  /*border-bottom: 0px solid #FFF;*/
 	  text-align: center;
@@ -98,7 +98,6 @@ main
     border-radius:5px; 
 }
 
-
 main h1
 {
     font-size: xx-large;
@@ -120,8 +119,12 @@ article
     padding-right: 20px;     
     
     font-size: large;
-}   
+} 
 
+article a:visited
+{
+  color:  #0000ff  ;
+} 
 
 footer 
 {
@@ -183,11 +186,10 @@ ul li a
 }
 
 
-ul li a:visited 
+ ul li a:visited
 {
-    color: #ffffff;
-}
-
+  color:  #ffffff ;
+} 
 
 
 ul li a:hover
