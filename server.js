@@ -13,9 +13,10 @@ app.use(express.static('public'));
 
 // http://expressjs.com/en/starter/basic-routing.html
 app.get("/", function (request, response) {
-  response.sendFile(__dirname + '/views/index.html');
+  response.sendFile(__dirname + 'index.html');
 });
 
+/*
 app.get("/dreams", function (request, response) {
   response.send(dreams);
 });
@@ -25,7 +26,7 @@ app.post("/dreams", function (request, response) {
   dreams.push(request.query.dream);
   response.sendStatus(200);
 });
-
+ 
 // Simple in-memory store for now
 var dreams = [
   "Find and count some sheep",
@@ -33,7 +34,13 @@ var dreams = [
   "Wash the dishes"
 ];
 
+*/
+
 // listen for requests :)
 var listener = app.listen(process.env.PORT, function () {
   console.log('Your app is listening on port ' + listener.address().port);
+});
+
+app.get("/contact", function (request, response) {
+  response.send("Hallo --> " + request.query.fname + " " + request.query.lname);
 });
